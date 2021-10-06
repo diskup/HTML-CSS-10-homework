@@ -52,10 +52,30 @@ header {
 h3 {
   margin: 15px auto 5px auto;
 }
-p {
-  margin: 0 auto;
-}
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .all-img {
+    width: 100%;
+    display: block;
+  }
+  .img {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  .img:nth-child(3) {
+    margin: 0% auto;
+  }
+  .img1 {
+    height: 180px;
+  }
+  .img2 {
+    height: 180px;
+  }
+  .img3 {
+    height: 180px;
+  }
 }
